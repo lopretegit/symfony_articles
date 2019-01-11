@@ -1,0 +1,28 @@
+# it is the default route.
+# index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+
+
+#I could do a new route as we can see below for the ArticleController index method 
+
+# index:
+#    path: /
+#    controller: App\Controller\ArticleController::index
+
+# article_show:
+#     path: /article/{id}
+#     controller: App\Controller\ArticleController::show
+
+
+#but it is better use Annotations. So we use composer to install it and can create something like this
+#/**
+#    * @Route("/")
+#    * @Method({"GET"})
+#    */
+
+#in the ArticleController.php file
+
+
